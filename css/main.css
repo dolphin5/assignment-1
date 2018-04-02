@@ -1,7 +1,7 @@
     #topbar {
       width: 1100px;
       margin: 0 auto;
-      height: 40px; //background-color: grey;
+      height: 40px;background-color: none;
     }
 
     body {
@@ -62,23 +62,26 @@
     #topbar2 {
       width: 97.5%;
       padding: 15px;
-      background-color: #d5d9e0;
+      background-color: #373F51;
       margin-top: 0px;
       height: 90px;
+      color: white;
     }
 
     .topbar-menu2 {
       font-weight: bold;
       font-size: 90%;
-      padding: 5px 0px 0px 50px;
+      padding: 5px 0px 0px 65px;
       height: 27px;
       width: 100%;
     }
-
+.topbar-menu2 a {
+  color: #D8DBE2;
+}
     #title {
       font-size: 150%;
       font-weight: bold;
-      padding-left: 50px;
+      padding-left: 65px;
       padding-top: 25px;
       margin-bottom: 20px;
     }
@@ -87,7 +90,7 @@
       width: 50%;
       height: 530px;
       padding: 20px;
-      background-color: #e3eaed;
+      background-color: #f7f9fc;
       float: left;
       border-right: 1px solid black;
     }
@@ -96,7 +99,7 @@
       width: 43.58%;
       height: 530px;
       padding: 20px;
-      background-color: #e3eaed;
+      background-color: #f7f9fc;
       float: left;
     }
 
